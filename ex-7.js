@@ -1,5 +1,5 @@
 //Start coding here
-const greeting = () => {
+const greeting = function ()  {
   console.log("Hello ! 😁");
 };
 

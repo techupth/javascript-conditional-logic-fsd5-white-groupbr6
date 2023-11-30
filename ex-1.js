@@ -1,10 +1,9 @@
 //Exercise 1
 let lightBulbStatus = "On";
-let lightMessage;
-if (lightBulbStatus === "On") {
-  lightMessage = "Light blub is On.";
-} else {
-  lightMessage = "Light blub is Off";
-}
 
-console.log(lightMessage);
+
+if (lightBulbStatus === "On") {
+  console.log("Light bulb is On.");
+} else if (lightBulbStatus === "Off") {
+  console.log("Light bulb is Off.");
+}

@@ -1,15 +1,17 @@
 //Exercise 2
-let lightBulbStatus = "Broken";
+let lightBulbStatus = "On";
 
-let lightMessage;
+
 if (lightBulbStatus === "On") {
-  lightMessage = "Light blub is On.";
+  console.log("Light bulb is On.");
 } else if (lightBulbStatus === "Off") {
-  lightMessage = "Light blub is Off.";
+  console.log("Light bulb is Off.");
 } else if (lightBulbStatus === "Broken") {
-  lightMessage = "Light blub is Broken.";
+  console.log("Light bulb is Broken.");
 } else {
-  lightMessage = "Please choose the correct input (On/Off/Broken)";
-}
+  console.log("Please choose the correct input (On/Off/Broken)");
+};
 
-console.log(lightMessage);
+lightBulbStatus = "Broken";
+console.log(checkingLightBulb(lightBulbStatus));
+

@@ -1,21 +1,19 @@
 //Exercise 4
 // Switch Statement
 let lightBulbStatus = "On";
-let lightMessage;
 
 switch (lightBulbStatus) {
   case "On":
-    lightMessage = "Light blub is On.";
+    console.log("Light bulb is On.");
     break;
   case "Off":
-    lightMessage = "Light blub is Off.";
+    console.log("Light bulb is Off.");
     break;
   case "Broken":
-    lightMessage = "Light blub is Broken.";
+    console.log("Light bulb is Broken.");
     break;
   default:
-    lightMessage = "Please choose the correct input (On/Off/Broken)";
+    console.log("Please choose the correct input (On/Off/Broken)");
     break;
 }
-
-console.log(lightMessage);
+console.log(lightBulbStatus);
